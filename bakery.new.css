@@ -1,0 +1,298 @@
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    /* font-family: 'Italiana', sans-serif; */
+    background-color: rgb(40, 40, 40);
+    }
+
+    a {
+        text-decoration: none;
+        font-style: normal;
+      }
+      
+      li {
+        list-style: none;
+      }
+      
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      ul,
+      p {
+        margin: 0;
+        padding-left: 0px;
+      }
+      
+      img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }
+      
+      
+      .visually-hidden {
+        position: absolute !important;
+        clip: rect(1px 1px 1px 1px);
+        clip: rect(1px, 1px, 1px, 1px);
+        padding: 0 !important;
+        border: 0 !important;
+        height: 1px !important;
+        width: 1px !important;
+        overflow:hidden;
+
+      }
+
+
+    /* heder styles */
+
+    .header{
+        padding-top: 55px;
+
+    }
+.header-list{
+    display: flex;
+    gap: 30px;
+}
+.header-link{
+    color: #f7f7f7;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+/* hero */ 
+.hero{
+    background-image:url(../img/hero.png);
+    padding-top: 71px;
+    padding-bottom: 36px;
+    width: 1431px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hero-title{
+    width: 561px;
+    margin-bottom: 22px;
+    color: #f7f7f7;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal; 
+}
+
+.hero-text{
+    width: 570px;
+    margin-bottom: 33px;
+    color: #f7f7f7;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.hero-btn{
+    border-radius: 17px;
+background-color: #B47B48;
+margin-bottom: 125px;
+color: #FFF;
+padding: 16px 34px 7px 34px;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.hero-list{
+    display: flex;
+    gap: 104px;
+    color: #f7f7f7;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.hero-list >.item {
+    width: 310px;
+height: 225px;
+flex-shrink: 0;
+background-color: #272727;
+display: flex;
+padding:51px 19px 44px 19px;
+}
+
+.hero-price{
+    color: #f7f7f7;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.hero-name-bake{
+    color: #f7f7f7;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.hero-buy-btn{
+    padding: 10px 22px 5px 22px;
+    background-color: #C85312;
+    color:#FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+/* menu */
+
+.menu-title{
+    color: #F7F7F7;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+
+.menu-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
+}
+.menu-name{
+    color: #f7f7f7;
+    font-size: 25.92px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.menu-order-btn{
+    border-radius: 17px;
+    background: #B47B48;
+    color: #F7F7F7;
+    font-size: 25.92px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+/* quality our bakery */
+
+.name-quality{
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.recipie-name{
+    color: #f7f7f7;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* why tr. artisax bakery */
+
+
+.why-our-bake-name{
+    color: #f7f7f7;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.name-bake{
+    color: #f7f7f7;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+/* footer */
+
+.footer-logo{
+    color: #f7f7f7;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.footer-text-one{
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.footer-text-two{
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.footer-text-tree{
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.footer-p-one{
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.footer-p-two{
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.footer-p-tree{
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.footer-p{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.footer-p-p{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
